@@ -40,8 +40,8 @@ def handle_message(event):
     msg = event.message.text
     s = '說啥'
     if msg == '想你':
-        s = '那還不快來抱抱我':
-    elif msg == 'bae'
+        s = '那還不快來抱抱我'
+    elif msg == 'bae':
         s = '怎啦'
     line_bot_api.reply_message(
         event.reply_token,
