@@ -39,6 +39,7 @@ def callback():
 def handle_message(event):
     msg = event.message.text
     r = '說啥'
+    
     if msg == '想你'
         r = '那還不快來抱抱我'
     elif msg == 'bae'
