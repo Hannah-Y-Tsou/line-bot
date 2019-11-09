@@ -43,6 +43,20 @@ def handle_message(event):
         s = '那還不快來抱抱我'
     elif msg == 'bae':
         s = '怎啦'
+    elif msg == '愛你':
+        s = '特別愛你'
+    elif msg == '肚子餓':
+        s = '吃什麼'
+    elif msg == '晚餐吃什麼':
+        s = '我,我,還是我,沒有別的選項'
+    elif msg == '你在哪':
+        s = '在家等你'
+    elif msg == '哼哼':
+        s = '為～～'
+    elif msg == '有你真好':
+        s = '什麼時候要娶我'
+    elif msg == '星宇':
+        s = '我們的小孩'
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=s))
